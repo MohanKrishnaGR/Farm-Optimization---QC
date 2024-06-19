@@ -1,0 +1,68 @@
+time_units: 20
+
+plot_adjacency:
+    1: [2]
+    2: [3]
+    3: [4]
+    4: [5]
+    5: [6]
+    6: [7]
+    7: [8]
+    8: [9]
+    9: []
+
+crops:
+    Cotton:
+        family: Mallows
+        planting: [2, 3]
+        grow_time: 6
+
+    Sunflower:
+        family: Aster
+        planting: [10, 12]
+        grow_time: 7
+
+    Peas:
+        family: Legume
+        planting: [6, 7]
+        grow_time: 3
+
+    Beans:
+        family: Legume
+        planting: [11, 12]
+        grow_time: 6
+
+    Tomato:
+        family: Solanum
+        planting: [11, 12]
+        grow_time: 4
+
+    Potato:
+        family: Solanum
+        planting: [9, 10]
+        grow_time: 6
+
+    Turnip:
+        family: Cole
+        planting: [2, 14]
+        grow_time: 4
+
+    Carrot:
+        family: Apium
+        planting: [7, 8]
+        grow_time: 4
+
+    Onion:
+        family: Alium
+        planting: [5, 7]
+        grow_time: 5
+
+    Garlic:
+        family: Alium
+        planting: [2, 2]
+        grow_time: 10
+
+    Spinach:
+        family: Chenopodium
+        planting: [6, 7]
+        grow_time: 3
